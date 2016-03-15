@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Stream live conversations on social media and like them.",
   "main": "index.js",
+  "bin": [ "bin/index.js" ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/mothepro/node-autoliker/issues"
   },
-  "homepage": "https://github.com/mothepro/node-autoliker"
+  "homepage": "https://github.com/mothepro/node-autoliker",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "twitter": "^1.2.5"
+  }
 }
