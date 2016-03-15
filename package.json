@@ -1,0 +1,29 @@
+{
+  "name": "AutoLiker",
+  "version": "0.0.0",
+  "description": "Stream live conversations on social media and like them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mothepro/node-autoliker"
+  },
+  "keywords": [
+    "autolike",
+    "like",
+    "twitter",
+    "instagram"
+  ],
+  "author": {
+    "name": "Maurice Prosper",
+    "email": "maurice.prosper@ttu.edu",
+    "url": "http://mauriceprosper.com/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mothepro/node-autoliker/issues"
+  },
+  "homepage": "https://github.com/mothepro/node-autoliker"
+}
