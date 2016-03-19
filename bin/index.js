@@ -1,9 +1,12 @@
+#!/usr/bin/env node
+
+const package = require('../package.json');
+const Twitter = require('twitter');
 var program = require('commander');
 var autoLiker = require('../lib/twitter-liker');
-const Twitter = require('twitter');
 
 program
-    .version('0.0.0')
+    .version(package.version)
     .option('--twitter-consumer-key [key]', 'Your Twitter application\'s key', process.env.TWITTER_CONSUMER_KEY || '')
     .option('--twitter-consumer-secret [secret]', 'Your Twitter application\'s secret', process.env.TWITTER_CONSUMER_SECRET || '')
     .option('--twitter-access-token [key]', 'Your user\'s token to access your application', process.env.TWITTER_ACCESS_TOKEN_KEY || '')

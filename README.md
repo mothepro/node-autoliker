@@ -2,10 +2,17 @@
 > Makes it easy to like posts related to what your account are all about.
 
 ## Self host instructions
-1. Make a developer Twitter account [http://dev.twitter.com/](here).
+1. Make a [Twitter Developer account](http://dev.twitter.com/).
 2. Install the application using `npm i autoliker -g`
 3. run the autoliker command with your consumer and application credentials.
-3b. add as many terms as you wish to narrow results to what you want.
+4. add as many terms as you wish to narrow results to what you want.
+
+### Example
+`$ TWITTER_CONSUMER_KEY='' TWITTER_CONSUMER_SECRET='' TWITTER_ACCESS_TOKEN_KEY='' TWITTER_ACCESS_TOKEN_SECRET='' autoliker -t JavaScript -t Cool`
+
+1. First set the tokens & keys as environment variables (or using the command line arguments listed in the [usage](#usage).)
+2. The stream tweet for "javascript" & "cool"
+3. Automatically like them!
 
 ## Usage
 ```
