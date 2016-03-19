@@ -1,6 +1,6 @@
 {
   "name": "autoliker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Stream live conversations on social media and like them.",
   "main": "index.js",
   "bin": {
